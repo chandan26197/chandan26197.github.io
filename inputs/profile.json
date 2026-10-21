@@ -1,0 +1,174 @@
+{
+  "name": "Chandan Kashyap",
+  "initials": "CK",
+  "title": "Senior Software Engineer",
+  "company": "Oracle Cloud Infrastructure",
+  "location": "Bengaluru, India",
+  "tagline": "Secure systems. Thoughtful engineering. Better developer tools.",
+  "description": "Chandan Kashyap is a software engineer working on distributed systems, cloud security, and AI-assisted developer workflows.",
+  "site_url": "https://chandan26197.github.io/personal_webpage/",
+  "email": "chandaneseu@gmail.com",
+  "github": "https://github.com/chandan26197",
+  "linkedin": "https://www.linkedin.com/in/chandan-kashyap-a714a4109/",
+  "photo": {
+    "path": "assets/chandan_tilicho_background.jpeg",
+    "alt": "Chandan Kashyap with snow-covered mountains and Tilicho Lake in the background.",
+    "width": 960,
+    "height": 1280
+  },
+  "resume": {
+    "path": "",
+    "label": "Download résumé"
+  },
+  "bio": [
+    "I’m a Senior Software Engineer at Oracle Cloud Infrastructure, working on Key Management Service. I build secure distributed systems, HSM-backed services, and the tools engineers use to operate them.",
+    "My work spans Java and native systems: service modernization, dedicated KMS infrastructure, audit delivery, and recovery workflows. I care about correctness, clear failure behavior, and making complex systems easier to understand.",
+    "I also use Codex in day-to-day engineering, apply reusable agent skills to production debugging and root-cause analysis, and build harnesses that help other developers run repeatable end-to-end tests."
+  ],
+  "focus": [
+    "Distributed systems",
+    "Cloud security & cryptography",
+    "AI-assisted engineering",
+    "Developer infrastructure"
+  ],
+  "work": [
+    {
+      "title": "Modernizing a security-critical Java dataplane",
+      "category": "systems",
+      "label": "Runtime engineering",
+      "summary": "Modernized a KMS Java dataplane while preserving compatibility and evaluating performance under realistic workloads. Added observability to make rollout behavior easier to verify.",
+      "tags": [
+        "Java",
+        "TLS",
+        "Performance",
+        "Observability"
+      ],
+      "url": ""
+    },
+    {
+      "title": "Dedicated KMS infrastructure and recovery",
+      "category": "systems",
+      "label": "Secure infrastructure",
+      "summary": "Built HSM Agent and CavServer capabilities for dedicated HSM clusters, including partition lifecycle operations, backup and recovery integration, and native telemetry.",
+      "tags": [
+        "C++",
+        "JNI",
+        "HSM",
+        "Distributed systems"
+      ],
+      "url": ""
+    },
+    {
+      "title": "Customer audit delivery",
+      "category": "systems",
+      "label": "Reliability & auditability",
+      "summary": "Delivered a pipeline that moves signed HSM audit logs to customer storage, with integrity checks, retry handling, and operational health signals.",
+      "tags": [
+        "Audit logs",
+        "Object storage",
+        "Integrity",
+        "Reliability"
+      ],
+      "url": ""
+    },
+    {
+      "title": "Codex-assisted engineering and incident investigation",
+      "category": "developer-tools",
+      "label": "AI-assisted development",
+      "summary": "Use Codex for agentic coding, implementation, debugging, test development, and review. Apply reusable agent skills to correlate service logs and investigate production failures across KMS components.",
+      "tags": [
+        "Codex",
+        "Agent skills",
+        "Root-cause analysis"
+      ],
+      "url": ""
+    },
+    {
+      "title": "Reusable end-to-end testing harnesses",
+      "category": "developer-tools",
+      "label": "Developer experience",
+      "summary": "Build harnesses that let other engineers reproduce KMS workflows and run repeatable end-to-end tests across service boundaries. Focus on useful validation evidence and understandable failure reports.",
+      "tags": [
+        "Test harnesses",
+        "Automation",
+        "End-to-end testing"
+      ],
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "Oracle Cloud Infrastructure",
+      "role": "Senior Software Engineer · IC3",
+      "period": "Jun 2022 — Present",
+      "detail": "Key Management Service: secure distributed services, dedicated HSM infrastructure, operational reliability, and developer tooling."
+    },
+    {
+      "company": "Zomato",
+      "role": "Software Development Engineer 1",
+      "period": "Feb 2020 — May 2022",
+      "detail": "Built billing and payout workflows, Kafka consumers, invoice generation, and merchant statement automation using Java, Spring, and Spark."
+    },
+    {
+      "company": "OYO",
+      "role": "Software Development Engineer 1",
+      "period": "Jul 2019 — Jan 2020",
+      "detail": "Built backend-for-frontend services, aggregation APIs, caching, observability, and performance-focused tests."
+    }
+  ],
+  "education": {
+    "institution": "Indian Institute of Technology Roorkee",
+    "degree": "B.Tech., Electrical Engineering",
+    "period": "2015 — 2019"
+  },
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Java",
+        "C++",
+        "Python",
+        "Scala",
+        "JavaScript",
+        "PHP",
+        "HCL"
+      ]
+    },
+    {
+      "group": "Systems & tools",
+      "items": [
+        "Distributed systems",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Kafka",
+        "Spark",
+        "SQL",
+        "PostgreSQL",
+        "Git",
+        "Maven",
+        "CMake",
+        "Terraform"
+      ]
+    },
+    {
+      "group": "Security & engineering",
+      "items": [
+        "Cryptography",
+        "HSM",
+        "PKCS#11",
+        "JNI",
+        "Codex",
+        "Agent skills",
+        "Production debugging",
+        "End-to-end testing"
+      ]
+    }
+  ],
+  "contact_note": "Interested in software engineering, secure infrastructure, and tools that make engineers more effective? I’d be happy to connect.",
+  "privacy": {
+    "publish_phone": false,
+    "publish_detailed_operational_metrics": false,
+    "publish_full_resume": false
+  }
+}

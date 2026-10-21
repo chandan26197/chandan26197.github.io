@@ -1,0 +1,9 @@
+_site/
+__pycache__/
+.DS_Store
+.venv/
+node_modules/
+.env
+.env.*
+/chandan_profile_photos/
+/chandan_profile_photos.zip
